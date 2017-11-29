@@ -25,6 +25,8 @@ spec:
   ports:
   - name: mysql
     port: 3306
+  externalIPs:
+  - 192.168.1.3
   selector:
     app: mysql
 
